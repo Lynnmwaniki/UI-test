@@ -32,6 +32,39 @@ function HomePage() {
           </p>
         </div>
       </div>
+
+      {/* Second Content Frame */}
+      <div className="second-content-frame d-flex justify-content-center">
+        {/* Second Frame Box (1) */}
+        <div className="second-frame-box d-flex flex-column">
+          {/* Inner Frame Box (1) */}
+          <div className="inner-frame-box">
+            <h2 className="nutrition-heading">
+              Nutrition is the foundation for longer, healthier lives in dogs.
+            </h2>
+            <p className="nutrition-subheading">
+              Invest in your dog's future with our scientifically formulated superfood-powered supplements. 
+              Give them the nutrition they deserve and watch them thrive with vitality, energy, 
+              and the joy of a longer, healthier life.
+            </p>
+          </div>
+          {/* Inner Frame Box (2) */}
+          <div className="inner-frame-box">
+            <h2 className="key-heading">
+              Key Points:
+            </h2>
+            <p className="nutrition-subheading">
+              Invest in your dog's future with our scientifically formulated superfood-powered supplements. 
+              Give them the nutrition they deserve and watch them thrive with vitality, energy, 
+              and the joy of a longer, healthier life.
+            </p>
+          </div>
+        </div>
+
+        {/* Additional Placeholder for Other Frame Boxes */}
+        <div className="second-frame-box"></div>
+        
+      </div>
     </section>
   );
 }
