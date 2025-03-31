@@ -148,3 +148,23 @@
   margin-top: 10px;
 }
 
+
+/* Second Frame Boxes */
+.second-frame-box-1 {
+  width: 370px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.test2-img{
+width: 570;
+height: 570;
+border-radius: 10px;
+
+}
